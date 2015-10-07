@@ -18,5 +18,8 @@
 Route::get('/', 'HomeController@index');
 
 
+/*
+ * Projects Routes
+ */
 Route::get('project/{id}', 'ProjectController@show');
 Route::get('project/create', 'ProjectController@create');

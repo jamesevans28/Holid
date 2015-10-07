@@ -56,16 +56,21 @@
       </ul>
       
       <ul class="nav navbar-nav navbar-right">
+          
+          
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i style="font-size:2em" class="fa fa-user fa-lg"></i></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
+          <ul class="dropdown-menu" style="width: 300px; padding: 5px">
+              <li><div>
+                      Name this is some more info ato make this longer<br>
+                      Title
+                      <hr style="margin: 5px 0">more info
+                  </div></li>
           </ul>
         </li>
+        
+        
+        
          <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="notification-number">12</span><i style="font-size:2em" class="fa fa-globe fa-lg"></i></a>
           <ul class="dropdown-menu">
